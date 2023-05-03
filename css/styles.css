@@ -815,6 +815,10 @@ p {
 .modal-form-input:focus ~ .modal-form-icon {
   fill: var(--brand-color);
 }
+.modal-form-comment:hover,
+.modal-form-comment:focus {
+  border-color: var(--brand-color);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
