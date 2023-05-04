@@ -1,0 +1,102 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+  /* Advantages */
+  .advantages {
+    padding: 120px 0px;
+  }
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 24px; */
+  }
+  .advantages-list .item {
+    flex-basis: calc((100% - 72px) / 4);
+    margin-bottom: 0;
+  }
+  .advantages-name {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+  }
+  .advantages-desc {
+    font-weight: 400;
+    width: 264px;
+  }
+  .icon-container {
+    display: flex;
+    background-color: var(--cloud-color);
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .advantages-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+  /* Examples */
+  .examples {
+    display: flex;
+    padding-bottom: 120px;
+  }
+  .examples-container {
+    display: flex;
+    gap: 24px;
+  }
+  .examples-title {
+    margin-bottom: 72px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-color);
+  }
+  .examples-container .item {
+    width: calc((100% - 48px) / 3);
+  }
+  /* Team */
+  .team {
+    padding: 120px 0px;
+  }
+  .team-container .teammates-description {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  /* Customers */
+  .customers {
+    padding: 120px 0;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  /* Footer */
+  .footer {
+    padding: 100px 0px;
+  }
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: start;
+    gap: 0;
+  }
+  .footer-social-container {
+    margin-left: 120px;
+  }
+  .footer-subscribe-container {
+    margin-left: 80px;
+    width: 454px;
+  }
+  .footer-form-input {
+    border: 1px solid var(--white-color);
+  }
+}

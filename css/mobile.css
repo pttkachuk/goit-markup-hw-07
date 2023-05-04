@@ -1,0 +1,325 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  outline: 2px solid tomato;
+}
+/* Advantages */
+.advantages {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.advantages-list {
+  display: block;
+}
+.advantages-list .item {
+  margin-bottom: 72px;
+}
+.advantages-name {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+.advantages-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.02em;
+  width: 100%;
+  color: var(--text-color);
+}
+.advantages-icon {
+  display: none;
+}
+.icon-container {
+  display: none;
+}
+/* Examples */
+.examples {
+  display: none;
+}
+/* Team */
+.team {
+  background: var(--cloud-color);
+  padding: 96px 0px;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.teammates-description {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.teammates-name {
+  margin-bottom: 8px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.team-title {
+  margin-bottom: 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+.teammates-description-container {
+  padding: 32px 0;
+}
+.teammates-position {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.team-container .teammates-description {
+  width: 264px;
+  border-radius: 0px 0px 4px 4px;
+}
+.social-list {
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+  gap: 24px;
+}
+.social-list-item {
+  width: 40px;
+  height: 40px;
+}
+.social-links {
+  display: flex;
+  background-color: var(--brand-color);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color var(--anim-transition);
+}
+.social-links:hover,
+.social-links:focus {
+  background-color: var(--button-active-color);
+}
+.social-icon {
+  fill: var(--cloud-color);
+}
+
+/* Customers */
+.customers {
+  padding: 96px 0;
+}
+.customer-section-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.customers-item {
+  flex-basis: calc((100% - 24px) / 2);
+  height: 88px;
+}
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px 24px;
+}
+.customers-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--main-logo-color);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-logo-color);
+  transition: color var(--anim-transition), border var(--anim-transition);
+}
+.customers-icon {
+  fill: currentColor;
+}
+.customers-link:hover,
+.customers-link:focus {
+  color: var(--button-active-color);
+  border: 1px solid var(--button-active-color);
+}
+/* Footer */
+.footer {
+  background: var(--main-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 96px 0px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+.studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud-color);
+}
+.footer-desc {
+  max-width: 268px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--cloud-color);
+}
+.container-logo > .logo {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.social-media-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-link {
+  display: flex;
+  background-color: var(--brand-color);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color var(--anim-transition);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--success-color);
+}
+.footer-social-icon {
+  fill: var(--cloud-color);
+}
+/* Footer Subscribe Section */
+.footer-subscribe-container {
+  width: 100%;
+}
+.footer-form-name {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-form-label {
+  display: block;
+  width: 100%;
+}
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+.footer-subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  color: var(--white-color);
+  background-color: var(--brand-color);
+  transition: background-color var(--anim-transition);
+  cursor: pointer;
+}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: var(--button-active-color);
+}
+.footer-subscribe-icon {
+  fill: var(--white-color);
+}
+.footer-form-input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding: 8px 16px;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  background-color: var(--main-color);
+  outline: 1px solid transparent;
+  transition: color var(--anim-transition),
+    background-color var(--anim-transition), border-color var(--anim-transition);
+}
+.footer-form-input:hover,
+.footer-form-input:focus {
+  color: black;
+  background-color: var(--white-color);
+  border-color: var(--button-active-color);
+}
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
