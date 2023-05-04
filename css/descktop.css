@@ -31,6 +31,10 @@
   .hero-button {
     margin-top: 48px;
   }
+  /* Modal */
+  .modal {
+    top: 50%;
+  }
   /* Advantages */
   .advantages {
     padding: 120px 0px;
