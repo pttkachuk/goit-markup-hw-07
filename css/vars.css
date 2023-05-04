@@ -1,0 +1,12 @@
+:root {
+  --main-color: #2e2f42;
+  --brand-color: #4d5ae5;
+  --white-color: #ffffff;
+  --text-color: #434455;
+  --cloud-color: #f4f4fd;
+  --button-active-color: #404bbf;
+  --accent-color: #e7e9fc;
+  --main-logo-color: #8e8f99;
+  --success-color: #31d0aa;
+  --anim-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
