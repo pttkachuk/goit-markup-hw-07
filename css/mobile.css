@@ -311,7 +311,7 @@
 .advantages-list {
   display: block;
 }
-.advantages-list .item {
+.advantages-list .item:not(:last-child) {
   margin-bottom: 72px;
 }
 .advantages-name {
