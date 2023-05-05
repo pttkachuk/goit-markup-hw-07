@@ -83,6 +83,10 @@
     row-gap: 64px;
   }
   /* Customers */
+  /* .customers {
+    padding: 96px 0px;
+  } */
+
   .customers-item {
     flex-basis: calc((100% - 48px) / 3);
     height: 88px;
@@ -95,7 +99,7 @@
     gap: 24px;
   }
   .container-logo {
-    margin-left: 0px;
+    padding-left: 92px;
   }
   .container-logo > .logo {
     display: block;
@@ -111,6 +115,7 @@
     text-align: left;
   }
   .footer-subscribe-container {
+    margin-left: 92px;
     width: 453px;
     text-align: left;
   }

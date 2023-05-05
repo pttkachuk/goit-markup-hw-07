@@ -125,6 +125,9 @@
     height: 88px;
   }
   /* Footer */
+  .container-logo {
+    padding-left: 0px;
+  }
   .footer {
     padding: 100px 0px;
   }
