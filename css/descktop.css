@@ -143,4 +143,7 @@
   .footer-form-input {
     border: 1px solid var(--white-color);
   }
+  .subscribe-title {
+    margin-top: 0;
+  }
 }
