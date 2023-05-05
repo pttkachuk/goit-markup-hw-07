@@ -60,6 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 72px;
   }
   .advantages-name {
     text-align: left;
@@ -71,13 +72,18 @@
   }
   .advantages-list .item {
     flex-basis: calc((100% - 24px) / 2);
-    margin-bottom: 72px;
+    margin-bottom: 0;
   }
   .advantages-list .item:nth-child(3) {
     margin-bottom: 0;
   }
   .advantages-list .item:nth-child(4) {
     margin-bottom: 0;
+  }
+  /* Team */
+  .team-container {
+    gap: 24px;
+    row-gap: 64px;
   }
   /* Customers */
   .customers-item {

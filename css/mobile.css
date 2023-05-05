@@ -265,7 +265,7 @@
 .hero-title {
   max-width: 320px;
   margin-top: 0;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   margin-left: auto;
   margin-right: auto;
   font-style: normal;
@@ -356,6 +356,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  row-gap: 72px;
 }
 .teammates-description {
   background-color: var(--white-color);
@@ -687,7 +688,7 @@
 .modal-form-label {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   align-items: flex-start;
 }
 .modal-form-label:not(:last-child) {
@@ -776,6 +777,7 @@
 .checkbox-wrap {
   display: flex;
   align-items: center;
+  margin-top: 16px;
 }
 .custom-icon {
   fill: currentColor;
@@ -814,7 +816,7 @@
   cursor: pointer;
   padding: 16px 32px;
   min-width: 170px;
-  margin: 20px auto;
+  margin: 24px auto;
   transition: background-color var(--anim-transition);
 }
 .modal-form-button:hover,

@@ -58,7 +58,6 @@
   }
   .advantages-list .item {
     flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 0;
   }
   .advantages-name {
     font-weight: 500;
@@ -107,6 +106,9 @@
     width: calc((100% - 48px) / 3);
   }
   /* Team */
+  .team-container {
+    row-gap: 0px;
+  }
   .team {
     padding: 120px 0px;
   }
