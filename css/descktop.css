@@ -24,6 +24,21 @@
     width: 1158px;
     padding: 0 15px;
   }
+  /* Header */
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  .address-list .link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .site-nav {
+    margin-left: 76px;
+  }
   /* Hero */
   .hero {
     padding: 188px 0px;

@@ -24,6 +24,27 @@
     width: 768px;
     padding: 0 16px;
   }
+  /* Header */
+  .header > .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .site-nav {
+    margin-right: auto;
+  }
+
+  .address-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .address-list .link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+  .mobile-open {
+    display: none;
+  }
   /* Hero */
   .hero-title {
     max-width: 496px;
