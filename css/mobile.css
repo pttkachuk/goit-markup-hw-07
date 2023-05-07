@@ -785,7 +785,7 @@
 
 .checkbox-wrap {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 16px;
   font-weight: 400;
@@ -808,13 +808,11 @@
 .checkbox-desc {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-self: right;
   margin-left: 8px;
+  margin-right: 3px;
 }
 
 .checkbox-link {
-  /* margin-left: 3px; */
   color: var(--brand-color);
 }
 .checkbox-link:hover,
