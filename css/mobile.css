@@ -839,7 +839,13 @@
 .modal-form-button:focus {
   background-color: var(--button-active-color);
 }
-
+@media screen and (max-width: 420px) {
+  .menu-mobile-social {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
